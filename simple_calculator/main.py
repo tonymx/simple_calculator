@@ -23,6 +23,7 @@ class SimpleCalculator:
             return float('inf')
         
     def avg(self,lst: list,ut: int =0,lt:int=0):
+        #solucion sin checar respuesta del autor
         return_value=0
 
         if len(lst)>0:

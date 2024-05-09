@@ -120,7 +120,7 @@ def test_compute_avg_iterable_after_oulier_removal():
     assert result == 0
 
 def test_compute_avg_iterable_empty_oulier_removal():
-    #probablemente esta prueba esta de mas...
+    #probablemente esta prueba esta de mas
     calculator= SimpleCalculator()
 
     result = calculator.avg([],ut=90,lt=15)
